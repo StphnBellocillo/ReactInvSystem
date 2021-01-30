@@ -1,0 +1,33 @@
+body{
+  font-family: "Proxima Nova";
+}
+
+.column-one{
+  float: left;
+  height: auto;
+  position: fixed;
+}
+
+.column-two{
+  float: left;
+  height: auto;
+  padding-left: 10%; /* Should be removed. Only for demonstration */
+  /* position: fixed; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.table-left{
+ width: auto;
+float: left;
+}
+
+
+.column-2{
+  margin-right: 50px;
+}
